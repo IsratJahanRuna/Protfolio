@@ -1,8 +1,6 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import Button from "react-bootstrap/Button";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+
 import "./contact-form.styles.css";
 import emailjs from "emailjs-com";
 

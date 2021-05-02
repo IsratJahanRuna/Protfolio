@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Slide1 from "../../assets/img/carousal/slide4.jpg";
 import Slide2 from "../../assets/img/carousal/slide5.jpg";
 import Slide3 from "../../assets/img/carousal/slide6.jpg";
-import ScrollDown from "../scroll-down/scroll-down.component";
+
 import "./my-carousal.styles.css";
 
 const MyCarousal = () => {
