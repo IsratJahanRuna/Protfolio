@@ -6,6 +6,7 @@ import L_hair from "../../assets/img/projects/project3.PNG";
 import L_book from "../../assets/img/projects/Project1.PNG";
 import L_league from "../../assets/img/projects/project4.PNG";
 import L_ride from "../../assets/img/projects/project2.PNG";
+import L_hrm from "../../assets/img/projects/project5.PNG";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -19,6 +20,7 @@ import Image from "react-bootstrap/Image";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
+import L_Laravel from "../../assets/img/skills/monitor.svg";
 
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
@@ -350,6 +352,103 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
+
+          <ImageEvent
+            date="04/2021"
+            className="text-center"
+            text="Human Resource Management System"
+            src={L_hrm}
+            alt="Human Resource Management System"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> •	An hrm system for a software limited. It handle all the responsibilities of HR department of the office. Developed by Laravel, Bootstrap, HTML, CSS. 
+
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Manages all the Responsibilities of HR department</li>
+                          <li>Real-time complete website</li>
+                          <li>Styled with bootstrap</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                        <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="Bootstrap 4"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Bootstrap 4
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_Laravel}
+                                alt="Laravel"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Laravel
+                            </span>
+                          </li>
+                         
+                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                
+                <UrlButton
+                  href="https://github.com/IsratJahanRuna/hrms-app"
+                  target="_blank"
+                >
+                SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
           
           <ImageEvent
             date="03/2021"
@@ -571,6 +670,7 @@ const TimeLine = () => {
               </div>
             </div>
           </ImageEvent>
+      
 
 
         </Events>
