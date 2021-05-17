@@ -10,8 +10,10 @@ import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
+import L_Laravel from "../../assets/img/skills/monitor.svg";
 
 import L_Firebase from "../../assets/img/skills/file-type-firebase.svg";
+import L_PHP from "../../assets/img/skills/php.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import L_MSSQL from "../../assets/img/skills/mssql.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
@@ -94,6 +96,12 @@ export const skills = {
       imgSrc: L_EXPRESS,
       skillName: "Express",
     },
+    {
+      link: "https://laravel.com/",
+      imgAltText: "Laravel",
+      imgSrc: L_Laravel,
+      skillName: "Laravel",
+    },
    
   ],
   hostingPlatforms: [
@@ -122,6 +130,12 @@ export const skills = {
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
+    },
+    {
+      link: "https://www.php.net/",
+      imgAltText: "PHP",
+      imgSrc: L_PHP,
+      skillName: "PHP",
     },
     {
       link: "https://www.typescriptlang.org/",

@@ -4,6 +4,7 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 // projects
 import L_hair from "../../assets/img/projects/project3.PNG";
 import L_book from "../../assets/img/projects/Project1.PNG";
+import L_league from "../../assets/img/projects/project4.PNG";
 import L_ride from "../../assets/img/projects/project2.PNG";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -337,7 +338,7 @@ const TimeLine = () => {
                   href="https://bookira-app.web.app/"
                   target="_blank"
                 >
-                 Site
+                 See Live
                 </UrlButton>
                 <UrlButton
                   href="https://github.com/IsratJahanRuna/Bookira-app "
@@ -469,7 +470,108 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-         
+          <ImageEvent
+            date="03/2021"
+            className="text-center"
+            text="Dream-League"
+            src={L_league}
+            alt="Dream-League"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> •	An online sports league and team selecting website. Developed by ReactJS, Bootstrap, Mongodb, NodeJS, Express JS, Firebase, Netlify.
+
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Select your desire team / league and team-up</li>
+                          <li>Real-time complete website</li>
+                          <li>Styled with react-bootstrap</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                        <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="Bootstrap 4"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Bootstrap 4
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                         
+                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://romantic-yonath-9f8519.netlify.app/"
+                  target="_blank"
+                >
+                 See Live
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/IsratJahanRuna/Dream-Leauge"
+                  target="_blank"
+                >
+                SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
 
         </Events>
       </Timeline>

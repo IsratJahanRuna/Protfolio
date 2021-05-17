@@ -22,7 +22,7 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-4 my-details rounded">
                 Hi there! I am <strong>&nbsp;Israt Jahan Runa</strong>
-                <br />A passionate programmer. I am a Front-End Web Developer with HTML, CSS, JavaScript, Bootstrap, React, Node.js, Express.js, MongoDB and Material as my tech stack. Now, I am pursuing my Engineering with specialization in 'Computer Science and Engineering'. I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                <br />A passionate programmer. I am a Front-End Web Developer with HTML, CSS, JavaScript, Bootstrap, React, Node.js, Express.js, PHP, Laravel, MongoDB and Material as my tech stack. Now, I am pursuing my Engineering with specialization in 'Computer Science and Engineering'. I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
