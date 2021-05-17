@@ -14,8 +14,8 @@ const Experience = () => {
     <div id="experience">
       <h1 className="pt-3 text-center font-details-b pb-3 text-light">BLOGS</h1>
       <Jumbotron className="jumbo-style">
-        <div className="row">
-          <div className="col-md-4">
+        <div className="row ">
+          <div className="col-md-4 mt-2">
             <Container>
               <Tilt options={{ max: 25 }}>
                 <Card>
@@ -33,7 +33,7 @@ const Experience = () => {
               </Tilt>
             </Container>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4  mt-2">
             <Container>
               <Tilt options={{ max: 25 }}>
                 <Card>
@@ -51,7 +51,7 @@ const Experience = () => {
               </Tilt>
             </Container>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4  mt-2">
             <Container>
               <Tilt options={{ max: 25 }}>
                 <Card>

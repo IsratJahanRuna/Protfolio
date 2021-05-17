@@ -30,7 +30,7 @@ import "./projects-timeline.styles.css";
 
 const TimeLine = () => {
   return (
-    <div id="projects">
+    <div id="projects" >
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
