@@ -38,7 +38,7 @@ const About = () => {
                         My Resume
                       </Button>
                     </a> */}
-                    <a href="https://drive.google.com/uc?export=download&id=1i2qTWXffDy3kYcfD8E0pZ-jGVlULO6G4" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/uc?export=download&id=1aKirBrlU8NHYeso_27KVkPWJjT8hQ3cD" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>
